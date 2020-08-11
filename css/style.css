@@ -1,3 +1,55 @@
-* {
-    box-sizing: border-box;
-}
+                    * {
+                        box-sizing: border-box;
+                    }
+                    
+                    .conteiner {
+                        width: 1088px;
+                        margin: 0 auto;
+                    }
+                    
+                    header {
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                    }
+                    
+                    .page-header .container {
+                        height: 93px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    
+                    span {
+                        color: red;
+                    }
+                    
+                    .page-nav-list {
+                        display: flex;
+                    }
+                    
+                    .page-nav-list li {
+                        padding: 40px;
+                    }
+                    
+                    .page-nav-list a {
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                    /* Sekcja banner */
+                    
+                    .banner {
+                        width: 100%;
+                        height: 100vh;
+                        background-image: url(../images/Image.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .banner-title {
+                        font-size: 123px;
+
+                    }
